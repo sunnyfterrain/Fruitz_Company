@@ -49,7 +49,7 @@
 |:---:|:---:|:---:|
 |<img width="300" height="200" alt="회원가입" src="https://user-images.githubusercontent.com/95746551/162576974-3ff8621d-a1af-42ac-8655-0a1601669f4f.gif">|<img width="300" height="200" alt="회원관리" src="https://user-images.githubusercontent.com/95746551/162576969-6428e9f7-e756-4a7f-9e42-4cc082b38785.gif">|<img width="300" height="200" alt="회원가입" src="https://user-images.githubusercontent.com/95746551/162374253-77dfda2e-fbc5-4890-90c2-861b596dadf2.gif">
 
-#### 내가 맡은 기능
+#### 🧑‍💻내가 맡은 기능
 - Navbar
   - 상수데이터를 이용 네브바 메뉴 구성
   - 로그인시 토근저장후 LOGIN -> LOGOUT으로 변환, 로그아웃 클릭시 토큰삭제와 함께 로그아웃

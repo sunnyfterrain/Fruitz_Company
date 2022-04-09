@@ -42,7 +42,7 @@
 
 |메인페이지|회원관리|상품페이지|
 |:---:|:---:|:---:|
-|<img width="300" height="300" alt="회원가입" src="https://user-images.githubusercontent.com/95746551/162576974-3ff8621d-a1af-42ac-8655-0a1601669f4f.gif">|<img width="300" height="300" alt="회원관리" src="https://user-images.githubusercontent.com/95746551/162576969-6428e9f7-e756-4a7f-9e42-4cc082b38785.gif">|<img width="300" height="300" alt="회원가입" src="https://user-images.githubusercontent.com/95746551/162374253-77dfda2e-fbc5-4890-90c2-861b596dadf2.gif">
+|<img width="300" height="200" alt="회원가입" src="https://user-images.githubusercontent.com/95746551/162576974-3ff8621d-a1af-42ac-8655-0a1601669f4f.gif">|<img width="300" height="200" alt="회원관리" src="https://user-images.githubusercontent.com/95746551/162576969-6428e9f7-e756-4a7f-9e42-4cc082b38785.gif">|<img width="300" height="200" alt="회원가입" src="https://user-images.githubusercontent.com/95746551/162374253-77dfda2e-fbc5-4890-90c2-861b596dadf2.gif">
 
 ## 📌Reference
 

@@ -7,6 +7,7 @@
 - 시간이 많이 들어가는 디자인이 많지 않아 기능 구현에 집중 가능
 - 프론트엔드 개발을 위한 필수적인 기능이지만 구현하기에 크게 어렵지 않음
 
+
 ## 📌개발 기간 및 인원
 
 - 개발기간 : 2022/3/28 ~ 2022/4/7
@@ -33,6 +34,10 @@
 
 - Front-End : React.js, React Router, SASS
 - Back-End : Python, Django web framework, AWS
+
+### 소통 툴
+
+- Git, Github, Slack, Trello
   ​
 ### 💻구현 기능
  
@@ -44,6 +49,28 @@
 |:---:|:---:|:---:|
 |<img width="300" height="200" alt="회원가입" src="https://user-images.githubusercontent.com/95746551/162576974-3ff8621d-a1af-42ac-8655-0a1601669f4f.gif">|<img width="300" height="200" alt="회원관리" src="https://user-images.githubusercontent.com/95746551/162576969-6428e9f7-e756-4a7f-9e42-4cc082b38785.gif">|<img width="300" height="200" alt="회원가입" src="https://user-images.githubusercontent.com/95746551/162374253-77dfda2e-fbc5-4890-90c2-861b596dadf2.gif">
 
+#### 내가 맡은 기능
+- Navbar
+  - 상수데이터를 이용 네브바 메뉴 구성
+  - 로그인시 토근저장후 LOGIN -> LOGOUT으로 변환, 로그아웃 클릭시 토큰삭제와 함께 로그아웃
+  
+- Aside
+  - 상수데이터를 이용 트리 메뉴 구조의 메뉴구성
+  - 메뉴 클릭시 라우터를 이용 해당하는 페이지로 이동 및 백엔드 통신 
+  
+- 상품 리스트
+  - 백엔드와의 쿼리스트링으로 데이터 통신하여 리스트 나열
+  
+- 상품 상세
+  - 백엔드와의 패스파라미터로 데이터 통신하여 상품의 세부 정보 표기
+  - 제품의 수량 조절 가능
+  
+- 장바구니
+  - 로그인시 회원을 감지하여 장바구니를 백엔드와의 통신으로 로드
+  - 주문 계속하기와, 장바구니 바로 가기 모달    
+  - 수량변경 및 제품 삭제 구현 및 백엔드 서버로 반영
+  
+  
 ## 📌Reference
 
 - 이 프로젝트는 [프릳츠커피](https://fritz.co.kr/) 사이트를 참조하여 학습목적으로 만들었습니다.

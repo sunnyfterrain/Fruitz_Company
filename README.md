@@ -13,7 +13,7 @@
 ### 🧑‍💻 프론트 엔드
 |김동욱|남용현|노영완|
 |:----:|:----:|:----:|
-|<img src="https://user-images.githubusercontent.com/95746551/162573111-31bcb64a-e7c9-4ded-88a8-5e5eaa512bab.JPG">|<img width="254" alt="남용현1" src="https://user-images.githubusercontent.com/95746551/162573146-2b6f6d85-c928-4fd0-ba62-94644140fa53.png">|<img width="301" alt="노영완1" src="https://user-images.githubusercontent.com/95746551/162573168-cf925827-c623-47f3-b02b-b40ac7e5fdc7.png">|
+|<img width="300" alt="김동욱" src="https://user-images.githubusercontent.com/95746551/162573111-31bcb64a-e7c9-4ded-88a8-5e5eaa512bab.JPG">|<img width="300" alt="남용현" src="https://user-images.githubusercontent.com/95746551/162573146-2b6f6d85-c928-4fd0-ba62-94644140fa53.png">|<img width="300" alt="노영완" src="https://user-images.githubusercontent.com/95746551/162573168-cf925827-c623-47f3-b02b-b40ac7e5fdc7.png">|
 |[Github](https://github.com/dan2dong)|[Github](https://github.com/sunnyfterrain)|[Github](https://github.com/nohnohnohnoh)|
 
 

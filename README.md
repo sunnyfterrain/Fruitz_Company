@@ -14,14 +14,14 @@
 ### 🧑‍💻 프론트엔드
 |김동욱|남용현|노영완|
 |:----:|:----:|:----:|
-|<img width="200" alt="김동욱" src="https://user-images.githubusercontent.com/95746551/162573111-31bcb64a-e7c9-4ded-88a8-5e5eaa512bab.JPG">|<img width="200" alt="남용현" src="https://user-images.githubusercontent.com/95746551/162573146-2b6f6d85-c928-4fd0-ba62-94644140fa53.png">|<img width="200" alt="노영완" src="https://user-images.githubusercontent.com/95746551/162573168-cf925827-c623-47f3-b02b-b40ac7e5fdc7.png">|
+|<img width="200" height="200" alt="김동욱" src="https://user-images.githubusercontent.com/95746551/162573111-31bcb64a-e7c9-4ded-88a8-5e5eaa512bab.JPG">|<img width="200" height="200" alt="남용현" src="https://user-images.githubusercontent.com/95746551/162573146-2b6f6d85-c928-4fd0-ba62-94644140fa53.png">|<img width="200" height="200" alt="노영완" src="https://user-images.githubusercontent.com/95746551/162573168-cf925827-c623-47f3-b02b-b40ac7e5fdc7.png">|
 |[Github](https://github.com/dan2dong)|[Github](https://github.com/sunnyfterrain)|[Github](https://github.com/nohnohnohnoh)|
 
 ### 🧑‍💻 백엔드
 |류미류|한상안|
 |:----:|:----:|
-|<img width="200" alt="류미류" src="https://user-images.githubusercontent.com/95746551/162573414-d623d83b-91c4-4713-b9b1-6ac5fd93d488.JPG">|<img width="200" alt="한상안" src="https://user-images.githubusercontent.com/95746551/162573392-6abdda80-b63d-4cd4-8efe-705a5d6d07d6.png">|
-|[Github]()|[Github](https://github.com/sangahnhan)|
+|<img width="200" height="200" alt="류미류" src="https://user-images.githubusercontent.com/95746551/162573414-d623d83b-91c4-4713-b9b1-6ac5fd93d488.JPG">|<img width="200" height="200" alt="한상안" src="https://user-images.githubusercontent.com/95746551/162573392-6abdda80-b63d-4cd4-8efe-705a5d6d07d6.png">|
+|[Github](https://github.com/mquat)|[Github](https://github.com/sangahnhan)|
 
 🔗[Fruitz Company : Backend](https://github.com/wecode-bootcamp-korea/31-1st-TheCreationOfWeb-backend)
 
@@ -29,32 +29,20 @@
 
 ## 📌적용 기술 및 구현 기능
 
-### 적용 기술
+### 💻적용 기술
 
 - Front-End : React.js, React Router, SASS
 - Back-End : Python, Django web framework, AWS
   ​
-### 구현 기능
+### 💻구현 기능
+ 
+- 김동욱 : 회원가입로그인, 마이페이지
+- 남용현(PM) : NAV, ASIDE, 회원인가 시스템, 상품리스트, 상품상세, 장바구니
+- 노영완 : 메인페이지, 팀멤버소개페이지
 
-- 김동욱 (회원가입로그인, 마이페이지)
-
-<img width="300" alt="회원가입" src="https://user-images.githubusercontent.com/95746551/162373266-65cf8db7-baed-410a-9f17-bb2b947f79b3.gif"><img width="300" alt="로그인" src="https://user-images.githubusercontent.com/95746551/162373299-12ac2ceb-83da-432d-b79f-c8cba8bdb156.gif">
-
-- 남용현 (NAV, ASIDE, 회원인가 시스템, 상품리스트, 상품상세, 장바구니)
-
-<img width="300" alt="회원가입" src="https://user-images.githubusercontent.com/95746551/162374253-77dfda2e-fbc5-4890-90c2-861b596dadf2.gif">
-
-
-- 노영완 (메인페이지, 팀멤버소개페이지)
-  
-<img width="300" alt="회원가입" src="https://user-images.githubusercontent.com/95746551/162373662-63254944-5841-4d4d-bf2a-9556d10244a9.gif"><img width="300" alt="로그인" src="https://user-images.githubusercontent.com/95746551/162373986-913a4344-08a5-4902-9ca5-12c358942b1b.gif">
-  ![signup](https://user-images.githubusercontent.com/95746551/162373266-65cf8db7-baed-410a-9f17-bb2b947f79b3.gif)
-  ​
-
-- 상품 리스트, 상세 페이지, 장바구니 페이지 (남용현)
-  ​
-  ![product](https://user-images.githubusercontent.com/95746551/162374253-77dfda2e-fbc5-4890-90c2-861b596dadf2.gif)
-  ​
+|메인페이지|회원관리|상품페이지|
+|:---:|:---:|:---:|
+|<img width="300" alt="회원가입" src="https://user-images.githubusercontent.com/95746551/162576974-3ff8621d-a1af-42ac-8655-0a1601669f4f.gif">|<img width="300" alt="회원관리" src="https://user-images.githubusercontent.com/95746551/162576969-6428e9f7-e756-4a7f-9e42-4cc082b38785.gif">|<img width="300" alt="회원가입" src="https://user-images.githubusercontent.com/95746551/162374253-77dfda2e-fbc5-4890-90c2-861b596dadf2.gif">
 
 ## 📌Reference
 

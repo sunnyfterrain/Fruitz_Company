@@ -30,7 +30,7 @@
 
 ## 📌적용 기술 및 구현 기능
 
-### 💻적용 기술
+### 적용 기술
 
 - Front-End : React.js, React Router, SASS
 - Back-End : Python, Django web framework, AWS
@@ -39,7 +39,7 @@
 
 - Git, Github, Slack, Trello
   ​
-### 💻구현 기능
+### 구현 기능
  
 - 김동욱 : 회원가입로그인, 마이페이지
 - 남용현(PM) : NAV, ASIDE, 회원인가 시스템, 상품리스트, 상품상세, 장바구니

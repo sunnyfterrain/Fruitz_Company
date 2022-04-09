@@ -36,29 +36,21 @@
   ​
 ### 구현 기능
 
-- 김동욱 (회원가입, 로그인)
+- 김동욱 (회원가입로그인, 마이페이지)
 
-|:---:|:---:|
-|<img width="200" alt="회원가입" src="https://user-images.githubusercontent.com/95746551/162373266-65cf8db7-baed-410a-9f17-bb2b947f79b3.gif">|<img width="200" alt="로그인" src="https://user-images.githubusercontent.com/95746551/162373299-12ac2ceb-83da-432d-b79f-c8cba8bdb156.gif">|
+<img width="300" alt="회원가입" src="https://user-images.githubusercontent.com/95746551/162373266-65cf8db7-baed-410a-9f17-bb2b947f79b3.gif"><img width="300" alt="로그인" src="https://user-images.githubusercontent.com/95746551/162373299-12ac2ceb-83da-432d-b79f-c8cba8bdb156.gif">
 
-- 남용현
+- 남용현 (NAV, ASIDE, 회원인가 시스템, 상품리스트, 상품상세, 장바구니)
 
-|
-  ​
+<img width="300" alt="회원가입" src="https://user-images.githubusercontent.com/95746551/162374253-77dfda2e-fbc5-4890-90c2-861b596dadf2.gif">
+
+
+- 노영완 (메인페이지, 팀멤버소개페이지)
+  
+<img width="300" alt="회원가입" src="https://user-images.githubusercontent.com/95746551/162373662-63254944-5841-4d4d-bf2a-9556d10244a9.gif"><img width="300" alt="로그인" src="https://user-images.githubusercontent.com/95746551/162373986-913a4344-08a5-4902-9ca5-12c358942b1b.gif">
   ![signup](https://user-images.githubusercontent.com/95746551/162373266-65cf8db7-baed-410a-9f17-bb2b947f79b3.gif)
   ​
-- 로그인 (김동욱)
-  ​
-  ![login](https://user-images.githubusercontent.com/95746551/162373299-12ac2ceb-83da-432d-b79f-c8cba8bdb156.gif)
-  ​
-- 메인 페이지 (노영완)
-  ​
-  ![main](https://user-images.githubusercontent.com/95746551/162373662-63254944-5841-4d4d-bf2a-9556d10244a9.gif)
-  ​
-- 팀멤버 페이지 (노영완)
-  ​
-  ![modal](https://user-images.githubusercontent.com/95746551/162373986-913a4344-08a5-4902-9ca5-12c358942b1b.gif)
-  ​
+
 - 상품 리스트, 상세 페이지, 장바구니 페이지 (남용현)
   ​
   ![product](https://user-images.githubusercontent.com/95746551/162374253-77dfda2e-fbc5-4890-90c2-861b596dadf2.gif)

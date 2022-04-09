@@ -14,7 +14,7 @@
 |김동욱|남용현|노영완|
 |:----:|:----:|:----:|
 |사진|사진|사진|
-|깃헙|깃헙|깃헙|
+|[Github](https://github.com/dan2dong)|[Github](https://github.com/sunnyfterrain)|[Github](https://github.com/nohnohnohnoh)|
 
 
     

@@ -21,35 +21,29 @@
 |류미류|한상안|
 |:----:|:----:|
 |<img width="200" alt="류미류" src="https://user-images.githubusercontent.com/95746551/162573414-d623d83b-91c4-4713-b9b1-6ac5fd93d488.JPG">|<img width="200" alt="한상안" src="https://user-images.githubusercontent.com/95746551/162573392-6abdda80-b63d-4cd4-8efe-705a5d6d07d6.png">|
-|[Github](https://github.com/dan2dong)|[Github](https://github.com/sangahnhan)|
+|[Github]()|[Github](https://github.com/sangahnhan)|
 
 🔗[Fruitz Company : Backend](https://github.com/wecode-bootcamp-korea/31-1st-TheCreationOfWeb-backend)
 
-### 데모 이미지
 
-​
-<br>
-​
 
-## 적용 기술 및 구현 기능
-
-## ​
-
-​
+## 📌적용 기술 및 구현 기능
 
 ### 적용 기술
-
-​
 
 - Front-End : React.js, React Router, SASS
 - Back-End : Python, Django web framework, AWS
   ​
-
 ### 구현 기능
 
-​
+- 김동욱 (회원가입, 로그인)
 
-- 회원가입 (김동욱)
+|:---:|:---:|
+|<img width="200" alt="회원가입" src="https://user-images.githubusercontent.com/95746551/162373266-65cf8db7-baed-410a-9f17-bb2b947f79b3.gif">|<img width="200" alt="로그인" src="https://user-images.githubusercontent.com/95746551/162373299-12ac2ceb-83da-432d-b79f-c8cba8bdb156.gif">|
+
+- 남용현
+
+|
   ​
   ![signup](https://user-images.githubusercontent.com/95746551/162373266-65cf8db7-baed-410a-9f17-bb2b947f79b3.gif)
   ​
@@ -70,18 +64,7 @@
   ![product](https://user-images.githubusercontent.com/95746551/162374253-77dfda2e-fbc5-4890-90c2-861b596dadf2.gif)
   ​
 
-#### 메인페이지
-
-​
-
-- 추후 수정
-  ​
-  <br>
-  ​
-
-## Reference
-
-​
+## 📌Reference
 
 - 이 프로젝트는 [프릳츠커피](https://fritz.co.kr/) 사이트를 참조하여 학습목적으로 만들었습니다.
 - 실무수준의 프로젝트이지만 학습용으로 만들었기 때문에 이 코드를 활용하여 이득을 취하거나 무단 배포할 경우 법적으로 문제될 수 있습니다.

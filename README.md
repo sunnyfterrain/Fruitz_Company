@@ -1,5 +1,6 @@
 # Fruitz Company
-- 국내 커피 판매 사이트 [프릳츠커피](https://fritz.co.kr/) 클론 코딩
+- 국내 커피 판매 사이트 [프릳츠컴퍼니](https://fritz.co.kr/) 클론 코딩
+- 커피가 아닌 과일을 주제로 한 프룯츠컴퍼니로 변경
 
 ## 📌프로젝트 선정 이유
 - 깔끔하고 심플한 UI
@@ -23,6 +24,7 @@
 |[Github](https://github.com/dan2dong)|[Github](https://github.com/sangahnhan)|
 
 🔗[Fruitz Company : Backend](https://github.com/wecode-bootcamp-korea/31-1st-TheCreationOfWeb-backend)
+
 ### 데모 이미지
 
 ​

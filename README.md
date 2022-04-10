@@ -71,7 +71,7 @@
   - 주문 계속하기와, 장바구니 바로 가기 모달    
   - 수량변경 및 제품 삭제 구현 및 백엔드 서버로 반영
   
-## [구현 및 기술 논의](https://github.com/sunnyfterrain/31-1st-TheCreationOfWeb-frontend.wiki.git)
+## [구현 및 기술 논의 - Wiki](https://github.com/sunnyfterrain/31-1st-TheCreationOfWeb-frontend.wiki.git)
   
 ## 📌Reference
 

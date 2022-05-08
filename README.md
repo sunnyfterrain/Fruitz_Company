@@ -74,7 +74,10 @@
   - 장바구니 내 제품의 수량변경 및 삭제 백엔드 Query String API 전달 백엔드 서버 반영
   
 ## [구현 및 기술 논의 - Wiki](https://github.com/sunnyfterrain/Fruitz-Company/wiki/Fruitz-Company)
-  
+
+## 배포
+http://fruitzcompany.s3-website.ap-northeast-2.amazonaws.com/products?category_id=2
+
 ## 📌Reference
 
 - 이 프로젝트는 [프릳츠커피](https://fritz.co.kr/) 사이트를 참조하여 학습목적으로 만들었습니다.

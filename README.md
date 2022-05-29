@@ -78,6 +78,9 @@
 ## 배포
 http://fruitzcompany.s3-website.ap-northeast-2.amazonaws.com/products?category_id=2
 
+## 영상시연
+https://www.youtube.com/watch?v=K4G5Y80j6Yw
+
 ## 📌Reference
 
 - 이 프로젝트는 [프릳츠커피](https://fritz.co.kr/) 사이트를 참조하여 학습목적으로 만들었습니다.

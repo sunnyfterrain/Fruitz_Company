@@ -15,7 +15,7 @@ const Cart = () => {
   const getCartData = async () => {
     const response = await fetch(`${BASE_URL}carts`, { headers });
     const cartData = await response.json();
-    console.log(cartData);
+
     setCarts(cartData);
   };
 

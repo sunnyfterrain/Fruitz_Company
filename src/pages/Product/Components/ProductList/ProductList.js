@@ -5,7 +5,7 @@ import './ProductList.scss';
 const ProductList = ({ product }) => {
   return (
     <ul className="productList">
-      {product.map(product => {
+      {product?.map(product => {
         return <ProductItem key={product.id} {...product} />;
       })}
     </ul>

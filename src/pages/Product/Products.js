@@ -7,7 +7,8 @@ const Products = () => {
   const [product, setProduct] = useState([]);
   const [mockData, setMockData] = useState([]);
   const location = useLocation();
-
+  const env = process.env;
+  env.PUBLIC_URL = env.PUBLIC_URL || '';
   // 백엔드 데이터
   // const fetchData = () => {
   //   async function fetchSetProducts() {
@@ -21,7 +22,7 @@ const Products = () => {
   // mock 데이터
   const fetchData = () => {
     async function fetchSetProducts() {
-      const response = await fetch('./data/initialData.json');
+      const response = await fetch('data/initialData.json');
       const data = await response.json();
       setMockData(data.product_list);
     }
@@ -30,12 +31,16 @@ const Products = () => {
 
   useEffect(() => {
     fetchData();
-  }, [location.search]);
+  }, []);
+
+  // useEffect(() => {
+  //   fetchData();
+  // }, [location.search]);
 
   return (
     <section className="products">
       {/* {product && <ProductList product={product} />} */}
-      {mockData && <ProductList product={mockData} />}
+      <ProductList product={mockData} />
     </section>
   );
 };

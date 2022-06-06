@@ -16,7 +16,7 @@ const Cart = () => {
     // const response = await fetch(`${BASE_URL}carts`, { headers });
 
     // mockData
-    const response = await fetch('/data/cartData.json');
+    const response = await fetch('data/cartData.json');
     const cartData = await response.json();
     console.log(cartData);
     setCarts(cartData);

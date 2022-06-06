@@ -11,11 +11,11 @@ const Detail = () => {
   const [detailTabs, setDetailTabs] = useState(0);
   const [detailProduct, setDetailProduct] = useState([]);
   const { id } = useParams();
-  const { name, description, price } = detailProduct;
   let findItem = detailProduct.find(item => {
-    return item.id == id;
+    return item.id === 1;
   });
-  console.log(findItem);
+  // const { name, description, price } = detailProduct;
+
   // 백엔드 API
   // const fetchData = () => {
   //   async function fetchSetDetail() {
@@ -38,6 +38,7 @@ const Detail = () => {
 
   console.log('el', detailProduct);
 
+  console.log('파인드', findItem, id);
   useEffect(() => {
     fetchData();
   }, []);

@@ -7,7 +7,7 @@ const Direct = () => {
       <ul className="DirectBox">
         <li className="DirectHeadText">asdfa</li>
         <li className="DirectSmallBox">
-          <img className="Directimg" src="/images/단체.jpeg" alt="" />
+          <img className="Directimg" src="/images/allmember.jpeg" alt="" />
         </li>
         <li className="DirectText">The Creation of Web</li>
       </ul>

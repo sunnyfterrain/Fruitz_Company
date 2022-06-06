@@ -14,7 +14,7 @@ const ProductItem = ({ name, price, images, id }) => {
       <img className="productImg" alt="fruitImg" src={images[0]} />
       <div className="productContent">
         <h3 className="title">[프룯츠] {name}</h3>
-        <p className="price">KRW {Math.floor(price)}</p>
+        <p className="price">KRW {price}</p>
       </div>
     </li>
   );

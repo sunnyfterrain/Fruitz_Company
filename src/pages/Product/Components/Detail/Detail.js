@@ -12,15 +12,31 @@ const Detail = () => {
   const [detailProduct, setDetailProduct] = useState([]);
   const { id } = useParams();
   const { name, description, price } = detailProduct;
+  let findItem = detailProduct.find(item => {
+    return item.id == id;
+  });
+  console.log(findItem);
+  // 백엔드 API
+  // const fetchData = () => {
+  //   async function fetchSetDetail() {
+  //     const response = await fetch(`${BASE_URL}products/${id}`);
+  //     const data = await response.json();
+  //     setDetailProduct(data.product_detail);
+  //   }
+  //   fetchSetDetail();
+  // };
 
+  // mockData
   const fetchData = () => {
     async function fetchSetDetail() {
-      const response = await fetch(`${BASE_URL}products/${id}`);
+      const response = await fetch('/data/initialDataDetail.json');
       const data = await response.json();
       setDetailProduct(data.product_detail);
     }
     fetchSetDetail();
   };
+
+  console.log('el', detailProduct);
 
   useEffect(() => {
     fetchData();
@@ -28,20 +44,16 @@ const Detail = () => {
 
   return (
     <section className="detail">
-      {detailProduct.name && (
+      {findItem && (
         <>
           <div className="detailContent">
-            <img
-              className="img"
-              alt="productImg"
-              src={detailProduct.images[0]}
-            />
-            <p className="content">{description}</p>
+            <img className="img" alt="productImg" src={findItem.images[0]} />
+            <p className="content">{findItem.description}</p>
           </div>
           <div className="detailAside">
             <div className="title">
-              <h3 className="asideTitle">[프룯츠] {name}</h3>
-              <h3 className="asidePrice">KRW {Math.floor(price)}</h3>
+              <h3 className="asideTitle">[프룯츠] {findItem.name}</h3>
+              <h3 className="asidePrice">KRW {findItem.price}</h3>
             </div>
             <ul className="asideTabs">
               {TAB_LIST.map((tabsTitle, idx) => {
@@ -58,10 +70,10 @@ const Detail = () => {
                 );
               })}
             </ul>
-            {detailTabs === 0 && <DetailInfo {...detailProduct} />}
+            {detailTabs === 0 && <DetailInfo {...findItem} />}
             <div className="purchase">
               <DetailSelect count={count} setCount={setCount} />
-              <DetailBtn count={count} price={detailProduct.price} id={id} />
+              <DetailBtn count={count} price={findItem.price} id={id} />
             </div>
           </div>
         </>

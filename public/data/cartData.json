@@ -4,30 +4,40 @@
       "id": 2,
       "name": "딸기 바나나 쥬스",
       "quantity": 1,
-      "item": "https://fritz.co.kr/web/product/big/202203/cd72fa474592c61c5f0156004b305d5f.png"
+      "images": [
+        "https://fritz.co.kr/web/product/big/202203/cd72fa474592c61c5f0156004b305d5f.png"
+      ]
     },
     {
       "id": 1,
       "name": "키위 쥬스",
-      "item": "https://fritz.co.kr/web/product/big/202203/cd72fa474592c61c5f0156004b305d5f.png",
+      "images": [
+        "https://fritz.co.kr/web/product/big/202203/cd72fa474592c61c5f0156004b305d5f.png"
+      ],
       "quantity": 1
     },
     {
       "id": 5,
       "name": "수박 쥬스",
-      "item": "https://fritz.co.kr/web/product/big/202107/adccb58935c4ff88580fce5171b525f2.png",
+      "images": [
+        "https://fritz.co.kr/web/product/big/202107/adccb58935c4ff88580fce5171b525f2.png"
+      ],
       "quantity": 2
     },
     {
       "id": 4,
       "name": "오렌지 쥬스",
-      "item": "https://fritz.co.kr/web/product/big/202203/5d487fecd52d7f5188492fffa0e7290a.jpg",
+      "images": [
+        "https://fritz.co.kr/web/product/big/202203/5d487fecd52d7f5188492fffa0e7290a.jpg"
+      ],
       "quantity": 1
     },
     {
       "id": 3,
       "name": "토마토 쥬스",
-      "item": "https://fritz.co.kr/web/product/big/202107/becc37c40ca921da32b567d031182c39.png",
+      "images": [
+        "https://fritz.co.kr/web/product/big/202107/becc37c40ca921da32b567d031182c39.png"
+      ],
       "quantity": 1
     }
   ],

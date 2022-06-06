@@ -5,13 +5,25 @@ import { BASE_URL } from '../../config';
 
 const Products = () => {
   const [product, setProduct] = useState([]);
+  const [mockData, setMockData] = useState([]);
   const location = useLocation();
 
+  // 백엔드 데이터
+  // const fetchData = () => {
+  //   async function fetchSetProducts() {
+  //     const response = await fetch(`${BASE_URL}products${location.search}`);
+  //     const data = await response.json();
+  //     setProduct(data.product_list);
+  //   }
+  //   fetchSetProducts();
+  // };
+
+  // mock 데이터
   const fetchData = () => {
     async function fetchSetProducts() {
-      const response = await fetch(`${BASE_URL}products${location.search}`);
+      const response = await fetch('./data/initialData.json');
       const data = await response.json();
-      setProduct(data.product_list);
+      setMockData(data.product_list);
     }
     fetchSetProducts();
   };
@@ -22,7 +34,8 @@ const Products = () => {
 
   return (
     <section className="products">
-      {product && <ProductList product={product} />}
+      {/* {product && <ProductList product={product} />} */}
+      {mockData && <ProductList product={mockData} />}
     </section>
   );
 };

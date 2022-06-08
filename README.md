@@ -81,7 +81,7 @@
 
 http://fruitzcompany.s3-website.ap-northeast-2.amazonaws.com/
 
-### 로컬 실행
+### 로컬 실행 (mock data 부분이 aws에서 잘 보여지지 않습니다.)
 
 - git clone
 - npm install

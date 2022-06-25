@@ -4,8 +4,8 @@ import ProductList from './Components/ProductList/ProductList';
 import { BASE_URL } from '../../config';
 
 const Products = () => {
-  const [product, setProduct] = useState([]);
-  const [mockData, setMockData] = useState([]);
+  const [product, setProduct] = useState<Array<Product>>([]);
+  const [mockData, setMockData] = useState<Array<Product>>([]);
   const location = useLocation();
 
   // 백엔드 데이터

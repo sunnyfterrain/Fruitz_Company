@@ -5,7 +5,7 @@
       "name": "딸기 바나나 쥬스",
       "weight_volume": "75ml",
       "description": "환상의 궁합, 딸기와 바나나를 섞어 곱게 간 쥬스",
-      "price": "KRW 52,000",
+      "price": "52,000",
       "images": [
         "https://fritz.co.kr/web/product/big/202203/a852b5b8262d2684d66ba3dc877b2608.png"
       ],
@@ -16,7 +16,7 @@
       "name": "키위 쥬스",
       "weight_volume": "50ml",
       "description": "아이셔 키위 쥬스",
-      "price": "KRW 22,000",
+      "price": "22,000",
       "images": [
         "https://fritz.co.kr/web/product/big/202203/cd72fa474592c61c5f0156004b305d5f.png"
       ],
@@ -38,7 +38,7 @@
       "name": "오렌지 쥬스",
       "weight_volume": "15ml",
       "description": "응 내가 별로 안좋아해",
-      "price": "KRW 9,000",
+      "price": "9,000",
       "images": [
         "https://fritz.co.kr/web/product/big/202203/5d487fecd52d7f5188492fffa0e7290a.jpg"
       ],
@@ -49,7 +49,7 @@
       "name": "토마토 쥬스",
       "weight_volume": "125ml",
       "description": "숙취엔 이게 최고!!",
-      "price": "KRW 10,000",
+      "price": "10,000",
       "images": [
         "https://fritz.co.kr/web/product/big/202107/becc37c40ca921da32b567d031182c39.png"
       ],

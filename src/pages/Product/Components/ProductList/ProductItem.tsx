@@ -9,12 +9,7 @@ interface ProductItemProps {
   id: number;
 }
 
-const ProductItem: React.FC<ProductItemProps> = ({
-  name,
-  price,
-  images,
-  id,
-}) => {
+const ProductItem = ({ name, price, images, id }: ProductItemProps) => {
   const navigate = useNavigate();
   const goToDetail = () => {
     navigate({

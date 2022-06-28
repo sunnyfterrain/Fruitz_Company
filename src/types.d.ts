@@ -6,4 +6,5 @@ type Product = {
   price: number;
   images: any[];
   quantity: number;
+  product: [];
 };

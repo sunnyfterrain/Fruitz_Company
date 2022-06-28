@@ -1,9 +1,7 @@
 import ProductItem from './ProductItem';
 import './ProductList.scss';
-interface ProductProps {
-  product: ProductProps;
-}
-const ProductList = ({ product }: ProductProps) => {
+
+const ProductList = ({ product }: Product) => {
   return (
     <ul className="productList">
       {product?.map((product: Product) => {

@@ -12,7 +12,7 @@ const Detail = () => {
   const [detailProduct, setDetailProduct] = useState([]);
   const { id } = useParams();
   let findItem = detailProduct.find(item => {
-    return item.id === 1;
+    return item.id === parseInt(id);
   });
   // const { name, description, price } = detailProduct;
 

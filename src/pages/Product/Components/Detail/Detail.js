@@ -36,9 +36,6 @@ const Detail = () => {
     fetchSetDetail();
   };
 
-  console.log('el', detailProduct);
-
-  console.log('파인드', findItem, id);
   useEffect(() => {
     fetchData();
   }, []);

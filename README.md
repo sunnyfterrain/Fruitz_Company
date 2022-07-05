@@ -93,8 +93,8 @@
 
 ### AWS (현재는 백엔드API가 연결이 안되는 관계로 Mock Data 로 변경하였습니다.)
 
-S3 :
-http://fruitzcompany.s3-website.ap-northeast-2.amazonaws.com/
+<!-- S3 :
+http://fruitzcompany.s3-website.ap-northeast-2.amazonaws.com/ -->
 
 EC2 :
 http://3.34.188.158:8000/

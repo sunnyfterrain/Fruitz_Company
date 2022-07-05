@@ -83,7 +83,9 @@
   - 주문 계속하기와, 장바구니 바로 가기 모달창 구현 페이지 이동간 편한 플로우
   - 장바구니 내 제품의 수량변경 및 삭제 백엔드 Query String API 전달 백엔드 서버 반영
 
-## [구현 및 기술 논의 - Wiki](https://github.com/sunnyfterrain/Fruitz-Company/wiki/Fruitz-Company)
+<!-- ## [구현 및 기술 논의 - Wiki](https://github.com/sunnyfterrain/Fruitz-Company/wiki/Fruitz-Company) -->
+
+<!-- https://documenter.getpostman.com/view/20018497/Uyr8ndt3 -->
 
 ## [프로젝트 회고 링크](https://sunnyfterrain.github.io/life/life-1st.html)
 

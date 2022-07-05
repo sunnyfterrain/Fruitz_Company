@@ -11,11 +11,11 @@ const Detail = () => {
   const [detailTabs, setDetailTabs] = useState(0);
   const [detailProduct, setDetailProduct] = useState([]);
   const { id } = useParams();
+
   let findItem = detailProduct.find(item => {
     return item.id === parseInt(id);
   });
-  console.log(detailProduct);
-  console.log(id);
+
   /* 백엔드 API 연결시 사용 */
   // const { name, description, price } = detailProduct;
 
@@ -45,7 +45,7 @@ const Detail = () => {
   useEffect(() => {
     fetchData();
   }, [id]);
-
+  console.log(findItem);
   return (
     <section className="detail">
       {findItem && (
@@ -77,7 +77,7 @@ const Detail = () => {
             {detailTabs === 0 && <DetailInfo {...findItem} />}
             <div className="purchase">
               <DetailSelect count={count} setCount={setCount} />
-              <DetailBtn count={count} price={findItem.price} id={id} />
+              <DetailBtn count={count} {...findItem} />
             </div>
           </div>
         </>

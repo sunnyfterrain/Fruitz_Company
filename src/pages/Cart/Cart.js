@@ -1,42 +1,43 @@
 import React, { useEffect, useState } from 'react';
+import { useSelector } from 'react-redux';
 import { BASE_URL } from '../../config';
 import BlankCart from './BlankCart';
 import ValidCart from './ValidCart';
 import './Cart.scss';
 
 const Cart = () => {
-  const [carts, setCarts] = useState([]);
-  const isCartValid = carts.total_price !== null && true;
-  const token = localStorage.getItem('fruitz_user') || '';
-  const headers = {
-    Authorization: token,
-  };
+  // const [carts, setCarts] = useState([]);
+
+  const carts = useSelector(state => state.cart);
+  const isCartValid = carts.cart_list?.length > 0;
 
   const getCartData = async () => {
+    /* 백엔드 API */
+    // const headers = {
+    // Authorization: token,
+    // };
+    // const token = localStorage.getItem('fruitz_user') || '';
     // const response = await fetch(`${BASE_URL}carts`, { headers });
-
-    // mockData
-    const response = await fetch('data/cartData.json');
-    const cartData = await response.json();
-    console.log(cartData);
-    setCarts(cartData);
+    /* MockData */
+    // const response = await fetch('data/cartData.json');
+    // const cartData = await response.json();
+    // setCarts(cartData);
   };
 
   useEffect(() => {
-    getCartData();
-  }, []);
+    // getCartData();
+  }, [isCartValid, carts]);
 
   return (
     <div className="Cart">
-      {isCartValid ? (
+      {isCartValid && (
         <ValidCart
           carts={carts.cart_list}
           totalPrice={carts.total_price}
           getCartData={getCartData}
         />
-      ) : (
-        <BlankCart />
       )}
+      {!isCartValid && <BlankCart />}
     </div>
   );
 };

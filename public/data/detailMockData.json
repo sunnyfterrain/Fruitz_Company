@@ -6,7 +6,7 @@
         "name": "딸기",
         "volume": "1Box",
         "description": "달고 맛있는 유기농 딸기!",
-        "price": "10,000",
+        "price": 10000,
         "summary": "유기농 딸기",
         "origin": "국산",
         "images": ["/images/products/strawberry.png"],
@@ -19,7 +19,7 @@
         "description": "반 잘라 숫가락으로 먹으면 얼마나 맛있게요?",
         "summary": "국산 그린키위!",
         "origin": "국산",
-        "price": "1,000",
+        "price": 1000,
         "images": ["/images/products/kiwi.png"],
         "quantity": 1
       },
@@ -30,7 +30,7 @@
         "description": "요즘 최고의 인기, 씨없는 아주 단 샤인머스켓",
         "summary": "없어서 못먹어요",
         "origin": "국산",
-        "price": "16,000",
+        "price": 16000,
         "images": ["/images/products/shine.png"],
         "quantity": 1
       },
@@ -41,7 +41,7 @@
         "description": "국민 과일 사과, 한번 드셔보세요",
         "summary": "아주 싱싱한 빨간 사과",
         "origin": "국산",
-        "price": "1,500",
+        "price": 1500,
         "images": ["/images/products/apple.png"],
         "quantity": 1
       },
@@ -52,7 +52,7 @@
         "description": "숙취엔 이게 최고!!",
         "summary": "다이어트에 좋아요",
         "origin": "필리핀",
-        "price": "2,000",
+        "price": 2000,
         "images": ["/images/products/banana.png"],
         "quantity": 1
       },
@@ -63,7 +63,7 @@
         "description": "숙취엔 이게 최고!!",
         "summary": "따봉!",
         "origin": "국산",
-        "price": "5,000",
+        "price": 5000,
         "images": ["/images/products/orange.png"],
         "quantity": 1
       },
@@ -74,7 +74,7 @@
         "description": "숙취에 아주 좋은 토마토, 갈아서 아침 대용으로 한잔 하면 좋아요",
         "summary": "몸에 좋은 채소에요",
         "origin": "국산",
-        "price": "10,000",
+        "price": 10000,
         "images": ["/images/products/tomato.png"],
         "quantity": 1
       },
@@ -85,7 +85,7 @@
         "description": "여름 대표 과일 수박, 온가족이 함께 즐기세요",
         "summary": "씨가 많이 없어요",
         "origin": "국산",
-        "price": "12,000",
+        "price": 12000,
         "images": ["/images/products/watermelon.png"],
         "quantity": 1
       }
@@ -94,9 +94,9 @@
       {
         "id": 9,
         "name": "딸기 바나나 쥬스",
-        "volume": "75ml",
+        "volume": "300ml",
         "description": "환상의 궁합, 딸기와 바나나를 섞어 곱게 간 쥬스",
-        "price": "3,000",
+        "price": 3000,
         "summary": "딸+바 환상의 궁합",
         "origin": "국산",
         "images": ["/images/beverage/strawberry.png"],
@@ -105,55 +105,55 @@
       {
         "id": 10,
         "name": "키위 쥬스",
-        "volume": "75ml",
+        "volume": "300ml",
         "description": "키위와 골드키위를 반반 석어 많든 알갱이가 앂이는 키위 쥬스",
         "summary": "피부에 좋아요",
         "origin": "국산",
-        "price": "3,000",
+        "price": 3000,
         "images": ["/images/beverage/kiwi.png"],
         "quantity": 1
       },
       {
         "id": 11,
         "name": "수박 쥬스",
-        "volume": "75ml",
+        "volume": "300ml",
         "description": "여름엔 이게 최고지!! 시원시원 수박 쥬스",
         "summary": "시원한 수박한잔",
         "origin": "국산",
-        "price": "3,000",
+        "price": 3000,
         "images": ["/images/beverage/watermelon.png"],
         "quantity": 1
       },
       {
         "id": 12,
         "name": "오렌지 쥬스",
-        "volume": "75ml",
+        "volume": "300ml",
         "description": "유기농 오렌지를 아주 곱게 갈아 만들었습니다.",
         "summary": "델몬트 유기농 오렌지",
         "origin": "필리핀",
-        "price": "3,000",
+        "price": 3000,
         "images": ["/images/beverage/orange.png"],
         "quantity": 1
       },
       {
         "id": 13,
         "name": "토마토 쥬스",
-        "volume": "75ml",
+        "volume": "300ml",
         "description": "숙취엔 이게 최고에요. 아침대용으로도 좋습니다.",
         "summary": "몸에 좋아요",
         "origin": "국산",
-        "price": "3,000",
+        "price": 3000,
         "images": ["/images/beverage/tomato.png"],
         "quantity": 1
       },
       {
         "id": 14,
         "name": "케일 착즙",
-        "volume": "50ml",
+        "volume": "300ml",
         "description": "몸에 좋은 채소 케일을 갈았습니다.",
         "summary": "쓰지 않은 건강 쥬스",
         "origin": "국산",
-        "price": "3,000",
+        "price": 3000,
         "images": ["/images/beverage/kale.png"],
         "quantity": 1
       }
@@ -164,7 +164,7 @@
         "name": "머그잔",
         "volume": "1EA",
         "description": "직접 만든 머그잔입니다, 커피마시기 좋아요.",
-        "price": "5,000",
+        "price": 5000,
         "summary": "매우 가벼워요",
         "origin": "국산",
         "images": ["/images/goods/cup2.png"],
@@ -177,7 +177,7 @@
         "description": "투명 유리잔입니다, 맥주 500ml 들어가요",
         "summary": "매우 가볍고 잘 깨지지 않아요",
         "origin": "국산",
-        "price": "5,000",
+        "price": 5000,
         "images": ["/images/goods/cup.png"],
         "quantity": 1
       },
@@ -188,7 +188,7 @@
         "description": "맥주 따라 마시기 좋은 유리잔!",
         "summary": "매우 가볍고 잘 깨지지 않아요",
         "origin": "국산",
-        "price": "5,000",
+        "price": 5000,
         "images": ["/images/goods/cup3.png"],
         "quantity": 1
       },
@@ -197,7 +197,7 @@
         "name": "유리잔",
         "volume": "15ml",
         "description": "맥주마시기 좋은 유리잔이에요, 한캔 가득 들어갑니다.",
-        "price": "9,000",
+        "price": 9000,
         "images": ["/images/goods/cup4.png"],
         "quantity": 1
       },
@@ -208,7 +208,7 @@
         "description": "보온/냉 되는 텀블러 입니다! 환경 생각하세요",
         "summary": "사무실 필수품",
         "origin": "국산",
-        "price": "8,000",
+        "price": 8000,
         "images": ["/images/goods/tumbler.png"],
         "quantity": 1
       },
@@ -219,7 +219,7 @@
         "description": "보온/냉 되는 텀블러 입니다! 환경 생각하세요",
         "summary": "사무실 필수품",
         "origin": "국산",
-        "price": "8,000",
+        "price": 8000,
         "images": ["/images/goods/tumbler2.png"],
         "quantity": 1
       },
@@ -230,7 +230,7 @@
         "description": "장바구니 대용으로 사용하셔도 좋아요",
         "summary": "선물용으로 좋아요",
         "origin": "국산",
-        "price": "10,000",
+        "price": 10000,
         "images": ["/images/goods/ecobag.png"],
         "quantity": 1
       }
@@ -243,7 +243,7 @@
         "description": "신선하고 맛있는 여러가지 과일을 좋은 분께 선물하세요",
         "summary": "선물용 과일 바구니",
         "origin": "국산",
-        "price": "32,000",
+        "price": 32000,
         "images": ["/images/gift/gift1.png"],
         "quantity": 1
       },
@@ -254,7 +254,7 @@
         "description": "신선하고 맛있는 여러가지 과일을 좋은 분께 선물하세요",
         "summary": "선물용 과일 바구니",
         "origin": "국산",
-        "price": "32,000",
+        "price": 32000,
         "images": ["/images/gift/gift2.png"],
         "quantity": 1
       },
@@ -265,7 +265,7 @@
         "description": "신선하고 맛있는 여러가지 과일을 좋은 분께 선물하세요",
         "summary": "선물용 과일 바구니",
         "origin": "국산",
-        "price": "32,000",
+        "price": 32000,
         "images": ["/images/gift/gift3.png"],
         "quantity": 1
       },
@@ -276,7 +276,7 @@
         "description": "신선하고 맛있는 여러가지 과일을 좋은 분께 선물하세요",
         "summary": "선물용 과일 바구니",
         "origin": "국산",
-        "price": "32,000",
+        "price": 32000,
         "images": ["/images/gift/gift4.png"],
         "quantity": 1
       },
@@ -287,7 +287,7 @@
         "description": "신선하고 맛있는 여러가지 과일을 좋은 분께 선물하세요",
         "summary": "선물용 과일 바구니",
         "origin": "국산",
-        "price": "10,000",
+        "price": 10000,
         "images": ["/images/gift/gift5.png"],
         "quantity": 1
       },
@@ -298,7 +298,7 @@
         "description": "신선하고 맛있는 여러가지 과일을 좋은 분께 선물하세요",
         "summary": "선물용 과일 바구니",
         "origin": "국산",
-        "price": "32,000",
+        "price": 32000,
         "images": ["/images/gift/gift6.png"],
         "quantity": 1
       }

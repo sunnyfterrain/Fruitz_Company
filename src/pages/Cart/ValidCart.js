@@ -1,23 +1,28 @@
 import React from 'react';
+import { useDispatch } from 'react-redux';
+
+import { cartActions } from '../../redux/cartSlice';
 import CartItem from './CartItem';
 import CartSummary from './CartSummary';
 import './ValidCart.scss';
 
 const ValidCart = ({ carts, totalPrice, getCartData }) => {
-  const token = localStorage.getItem('fruitz_user') || '';
+  const dispatch = useDispatch();
 
   const removeCartAll = () => {
     if (window.confirm('장바구니를 비우시겠습니까?')) {
-      fetch('http://10.58.1.146:8000/carts/cart', {
-        method: 'DELETE',
-        headers: {
-          Authorization: token,
-        },
-        body: JSON.stringify({
-          product_id: 0,
-        }),
-      }).then(res => res.json());
-
+      /* 백엔드 API */
+      // const token = localStorage.getItem('fruitz_user') || '';
+      // fetch('http://10.58.1.146:8000/carts/cart', {
+      //   method: 'DELETE',
+      //   headers: {
+      //     Authorization: token,
+      //   },
+      //   body: JSON.stringify({
+      //     product_id: 0,
+      //   }),
+      // }).then(res => res.json());
+      dispatch(cartActions.deleteAll());
       window.scrollTo(0, 0);
     }
   };

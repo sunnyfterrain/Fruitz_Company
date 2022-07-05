@@ -14,9 +14,11 @@ const Detail = () => {
   let findItem = detailProduct.find(item => {
     return item.id === parseInt(id);
   });
+  console.log(detailProduct);
+  console.log(id);
+  /* 백엔드 API 연결시 사용 */
   // const { name, description, price } = detailProduct;
 
-  // 백엔드 API
   // const fetchData = () => {
   //   async function fetchSetDetail() {
   //     const response = await fetch(`${BASE_URL}products/${id}`);
@@ -26,19 +28,23 @@ const Detail = () => {
   //   fetchSetDetail();
   // };
 
-  // mockData
+  /* Mock Data 연결 시 사용 */
   const fetchData = () => {
     async function fetchSetDetail() {
-      const response = await fetch('/data/initialDataDetail.json');
-      const data = await response.json();
-      setDetailProduct(data.product_detail);
+      const response = await fetch('/data/detailMockData.json');
+      const getData = await response.json();
+
+      id <= 8 && setDetailProduct(getData.product_list.fruit);
+      (id >= 9) & (id <= 14) && setDetailProduct(getData.product_list.beverage);
+      (id >= 15) & (id <= 21) && setDetailProduct(getData.product_list.goods);
+      (id >= 22) & (id <= 27) && setDetailProduct(getData.product_list.gifts);
     }
     fetchSetDetail();
   };
 
   useEffect(() => {
     fetchData();
-  }, []);
+  }, [id]);
 
   return (
     <section className="detail">

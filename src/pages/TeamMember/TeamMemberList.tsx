@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import './TeamMemberList.scss';
 import Modal from './Modal';
 
-const TeamMemberList = ({ src, writer, content }) => {
-  const [modalList, setModalList] = useState(false);
+const TeamMemberList = ({ src, writer, content }: TeamMemberListProps) => {
+  const [modalList, setModalList] = useState<boolean>(false);
 
   return (
     <div>
@@ -21,7 +21,7 @@ const TeamMemberList = ({ src, writer, content }) => {
       </ul>
 
       <ul>
-        {modalList ? (
+        {modalList && (
           <Modal
             src={src}
             writer={writer}
@@ -29,7 +29,7 @@ const TeamMemberList = ({ src, writer, content }) => {
             modalList={modalList}
             setModalList={setModalList}
           />
-        ) : null}
+        )}
       </ul>
     </div>
   );

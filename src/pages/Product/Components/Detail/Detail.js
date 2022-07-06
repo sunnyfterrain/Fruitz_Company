@@ -45,7 +45,7 @@ const Detail = () => {
   useEffect(() => {
     fetchData();
   }, [id]);
-  console.log(findItem);
+
   return (
     <section className="detail">
       {findItem && (

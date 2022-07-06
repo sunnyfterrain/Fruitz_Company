@@ -1,9 +1,8 @@
-import React from 'react';
 import { AiOutlineCloseCircle } from 'react-icons/ai';
 import { BsInstagram } from 'react-icons/bs';
 import './Modal.scss';
 
-const Modal = ({ src, writer, content, setModalList }) => {
+const Modal = ({ src, writer, content, setModalList }: ModalProps) => {
   return (
     <div className="modal">
       <div className="modalCloseButtonBox">

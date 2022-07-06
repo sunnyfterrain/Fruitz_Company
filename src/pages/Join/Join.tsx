@@ -41,7 +41,7 @@ const Join = () => {
       });
   };
 
-  const handleInputs = e => {
+  const handleInputs: React.ChangeEventHandler<HTMLInputElement> = e => {
     const { name, value } = e.target;
 
     setJoinInput({

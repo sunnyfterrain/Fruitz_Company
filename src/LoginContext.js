@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState } from 'react';
 
-export const LoginProvider = ({ children }) => {
+export const LoginProvider = ({ children }: ChildrenProp) => {
   const token = localStorage.getItem('fruitz_user');
   const [isLogin, setIsLogin] = useState(!!token);
   const loginState = { isLogin, setIsLogin };

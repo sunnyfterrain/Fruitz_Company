@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import './Profile.scss';
 
 const Profile = () => {
-  const [profileInputs, setProfileInputs] = useState({
+  const [profileInputs, setProfileInputs] = useState<Profile>({
     user: '',
     address: '',
     phone_number: '',
@@ -16,7 +16,7 @@ const Profile = () => {
     navigate('/member/mypage');
   };
 
-  const handleInputs = e => {
+  const handleInputs: React.ChangeEventHandler<HTMLInputElement> = e => {
     const { name, value } = e.target;
     setProfileInputs({
       ...profileInputs,
@@ -29,15 +29,16 @@ const Profile = () => {
   };
 
   useEffect(() => {
-    fetch('http://10.58.1.198:8000/users/user ', {
-      headers: {
-        Authorization: localStorage.getItem('fruitz_user'),
-      },
-    })
-      .then(response => response.json())
-      .then(data => {
-        setProfileInputs(data.message);
-      });
+    /* 백엔드 API */
+    // fetch('http://10.58.1.198:8000/users/user ', {
+    //   headers: {
+    //     Authorization: localStorage.getItem('fruitz_user'),
+    //   },
+    // })
+    //   .then(response => response.json())
+    //   .then(data => {
+    //     setProfileInputs(data.message);
+    //   });
   }, []);
 
   return (

@@ -2,13 +2,6 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './ProductItem.scss';
 
-interface ProductItemProps {
-  name: string;
-  price: number;
-  images: any[];
-  id: number;
-}
-
 const ProductItem = ({ name, price, images, id }: ProductItemProps) => {
   const navigate = useNavigate();
   const goToDetail = () => {

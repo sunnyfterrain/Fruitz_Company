@@ -14,7 +14,7 @@ const Login = () => {
 
   const navigate = useNavigate();
 
-  const handleInputs = e => {
+  const handleInputs: React.ChangeEventHandler<HTMLInputElement> = e => {
     const { name, value } = e.target;
 
     setLoginInputs({
@@ -23,7 +23,7 @@ const Login = () => {
     });
   };
 
-  const goToMain = e => {
+  const goToMain = (e: React.FormEvent) => {
     e.preventDefault();
     fetch(`${BASE_URL}users/signin`, {
       method: 'POST',
@@ -60,14 +60,14 @@ const Login = () => {
               className="inputBox"
               name="id"
               onChange={handleInputs}
-              autocomplete="off"
+              autoComplete="off"
             />
             <input
               type="password"
               className="inputBox"
               name="pw"
               onChange={handleInputs}
-              autocomplete="off"
+              autoComplete="off"
             />
           </div>
           <div className="searchBox">

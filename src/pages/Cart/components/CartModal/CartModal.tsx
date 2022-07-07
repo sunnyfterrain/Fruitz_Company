@@ -4,7 +4,10 @@ import { FiX } from 'react-icons/fi';
 import { useNavigate } from 'react-router-dom';
 import './CartModal.scss';
 
-const CartModal = ({ setIsOpenCartModal }) => {
+type SetIsOpen = {
+  setIsOpenCartModal: (value: boolean) => void;
+};
+const CartModal = ({ setIsOpenCartModal }: SetIsOpen) => {
   const navigate = useNavigate();
 
   const goToCart = () => {

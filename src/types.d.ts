@@ -6,7 +6,7 @@ interface Product {
   price: number;
   images: any[];
   quantity: number;
-  product: [];
+  product?: [];
 }
 
 interface ProductItemProps {

@@ -1,7 +1,7 @@
 import React from 'react';
 import './cartSummary.scss';
 
-const CartSummary = ({ totalPrice }) => {
+const CartSummary = ({ totalPrice }: any) => {
   return (
     <ul className="cartSummary">
       <li className="subTitle">

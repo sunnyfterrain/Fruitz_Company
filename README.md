@@ -1,9 +1,9 @@
 지속적인 리팩토링 중입니다.
 
 - 리팩토링 우선 적용 사항
-  - ~~로그인 접근 권한 및 상태관리 재설정 (Context API -> Redux)~~ -> 완료
-  - ~~상품 정보를 백엔드API -> MockData로 수정 (상품별 MockData 재정의 필요)~~ -> 완료
-  - 타입스크립트 적용
+  - 완료 ~~로그인 접근 권한 및 상태관리 재설정 (Context API -> Redux)~~
+  - 완료 ~~상품 정보를 백엔드API -> MockData로 수정 (상품별 MockData 재정의 필요)~~
+  - 진행중 - 타입스크립트 적용
   - 기타 자잘한 버그 수정
 
 ---
@@ -45,8 +45,9 @@
 
 ### 적용 기술
 
-- Front-End : React.js, React Router, SASS
-- Back-End : Python, Django web framework, AWS
+- Front-End : React.js, React Router, SASS, TypeScript, ReduxTK
+- Back-End : Django
+- AWS : EC2
 
 ### 소통 툴
 

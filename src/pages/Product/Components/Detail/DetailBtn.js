@@ -56,12 +56,11 @@ const DetailBtn = ({ count, price, id, name, images }) => {
   return (
     <div className="detailBtn">
       {isOpenCartModal && <CartModal setIsOpenCartModal={setIsOpenCartModal} />}
-      <h3 className="detailLook">이 상품을 {randomNum}명이 보고있습니다.</h3>
       <div className="detailBtnSet">
-        <button className="buyBtn" onClick={addWishList} s>
+        <button className="buyBtn" onClick={addWishList}>
           BUY NOW
         </button>
-        <button className="addCartBtn" onClick={addCart}>
+        <button className="buyBtn" onClick={addCart}>
           ADD TO CART
         </button>
         <button className="wishListBtn" onClick={addWishList}>

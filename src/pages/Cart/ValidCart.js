@@ -26,7 +26,7 @@ const ValidCart = ({ carts, totalPrice, getCartData }) => {
       window.scrollTo(0, 0);
     }
   };
-
+  console.log(carts);
   return (
     <section className="validCart">
       <div className="cartContainer">
@@ -56,7 +56,7 @@ const ValidCart = ({ carts, totalPrice, getCartData }) => {
       </div>
       <div className="cartSummary">
         <h1 className="summaryTitle">SHOPPING SUMMARY</h1>
-        <CartSummary totalPrice={totalPrice} />
+        <CartSummary price={carts} />
       </div>
     </section>
   );

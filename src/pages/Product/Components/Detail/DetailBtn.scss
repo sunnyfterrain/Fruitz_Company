@@ -18,7 +18,7 @@
     .buyBtn {
       @include fontSet;
       padding: 15px 0;
-      margin-bottom: 40px;
+      margin-bottom: 5px;
       width: 100%;
       background-color: transparent;
       border: 1px solid $color-navy;
@@ -43,6 +43,7 @@
 
     .wishListBtn {
       @include fontSet;
+      margin-top: 30px;
       border: none;
       background: none;
       font-size: $font-size-small;

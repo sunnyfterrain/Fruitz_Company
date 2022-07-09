@@ -1,7 +1,7 @@
 import React from 'react';
 import './cartSummary.scss';
 
-const CartSummary = ({ totalPrice }: any) => {
+const CartSummary = ({ price }: any) => {
   return (
     <ul className="cartSummary">
       <li className="subTitle">
@@ -11,7 +11,7 @@ const CartSummary = ({ totalPrice }: any) => {
         <span>Shipping</span>KRW 0
       </li>
       <li className="subTitle">
-        <span>Order total</span>KRW {Math.floor(totalPrice)}
+        <span>Order total</span>KRW
       </li>
       <li className="checkOutBtn">
         <button className="checkOut">CHECK OUT</button>

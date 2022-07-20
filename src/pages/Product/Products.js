@@ -3,6 +3,10 @@ import { useLocation } from 'react-router-dom';
 import ProductList from './Components/ProductList/ProductList';
 import { BASE_URL } from '../../config';
 
+interface Pp {
+  product: Product;
+}
+
 const Products = () => {
   const [product, setProduct] = useState([]);
   const [mockData, setMockData] = useState([]);

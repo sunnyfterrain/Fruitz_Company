@@ -6,9 +6,17 @@ interface Product {
   price: number;
   images: any[];
   quantity: number;
-  product?: [];
+  product: arrData[];
 }
-
+type ProductList = {
+  id: number;
+  name: string;
+  weight_volume: string;
+  description: string;
+  price: number;
+  images: any[];
+  quantity: number;
+};
 interface ProductItemProps {
   name: string;
   price: number;

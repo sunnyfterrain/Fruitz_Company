@@ -1,25 +1,28 @@
-import React from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { loginActions } from '../../redux/loginSlice';
 import { useNavigate } from 'react-router-dom';
 import { useLoginState } from '../../LoginContext';
 import './Header.scss';
 
 const Header = () => {
   const navigate = useNavigate();
-  const loginState = useLoginState();
-  const { isLogin, setIsLogin } = loginState;
+  const dispatch = useDispatch();
+
+  const loginAuth = useSelector(state => state.loginAuth.isLogin);
 
   const goToPage = (event, idx) => {
     if (idx === 3) {
       alert('다국어는 지금 지원하지 않습니다.');
       return;
     }
-    if (isLogin && idx === 0) {
+    if (loginAuth && idx === 0) {
       localStorage.removeItem('fruitz_user');
-      setIsLogin(false);
+
+      dispatch(loginActions.logIn());
       navigate('member/login');
       return;
     }
-    if (!isLogin && idx === 1) {
+    if (!loginAuth && idx === 1) {
       alert('회원이 아닙니다.');
       navigate('member/login');
     } else if (idx === 2) {
@@ -32,7 +35,7 @@ const Header = () => {
   };
 
   const NAV_LIST = [
-    isLogin ? 'LOGOUT' : 'LOGIN',
+    loginAuth ? 'LOGOUT' : 'LOGIN',
     'MY PAGE',
     'CART',
     'ENG VER(GLOBAL SHIPPING)',

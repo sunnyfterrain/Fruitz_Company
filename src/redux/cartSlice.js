@@ -2,6 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 
 const INITIAL_STATE = {
   cart_list: [],
+  isLogin: false,
   total_price: 0,
 };
 

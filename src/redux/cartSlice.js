@@ -6,6 +6,9 @@ const INITIAL_STATE = {
   total_price: 0,
 };
 
+if (localStorage.getItem('cart')) {
+  INITIAL_STATE.cart_list.push(JSON.parse(localStorage.getItem('cart')));
+}
 let carts = createSlice({
   name: 'carts',
   initialState: INITIAL_STATE,
@@ -18,14 +21,18 @@ let carts = createSlice({
       } else {
         state.cart_list.push(action.payload);
       }
+      localStorage.setItem('cart', JSON.stringify(action.payload));
     },
     delete(state, action) {
       const targetId = action.payload;
       const index = state.cart_list.findIndex(item => item.id === targetId);
       state.cart_list.splice(index, 1);
+      // localStorage.removeItem('cart');
+      // localStorage.setItem('cart', state.cart_list);
     },
     deleteAll(state, action) {
       state.cart_list.splice(0, state.cart_list.length);
+      localStorage.clear();
     },
   },
 });

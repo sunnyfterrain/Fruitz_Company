@@ -97,8 +97,8 @@
 <!-- S3 :
 http://fruitzcompany.s3-website.ap-northeast-2.amazonaws.com/ -->
 
-EC2 :
-http://3.34.188.158:8000/
+EC2 : 인스턴스 종료 - 추후 복구 예정
+<!-- http://3.34.188.158:8000/ -->
 
 ### 로컬 실행
 
